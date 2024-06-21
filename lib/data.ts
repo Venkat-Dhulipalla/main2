@@ -2,9 +2,11 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+// import imgUploaderImg from "@/public/imgUploader.png";
+// import taskManagerImg from "@/public/taskManager.png";
+import iplDataMarvelImg from "@/public/iplDataMarvel.png";
+import movieQuestImg from "@/public/movieQuest.png";
+import fastPizzaStoreImg from "@/public/fastPizzaStore.png";
 
 export const links = [
   {
@@ -35,73 +37,92 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
-    description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+    title: "Graduated with Bachelor's in Electronics and Communication Engineering",
+    location: "Hyderabad, India",
+    description: "Completed my bachelor's degree, which laid the foundation for my interest in software development.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2021",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
-    description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+    title: "Associate Software Engineer",
+    location: "Bangalore, India",
+    description: "Worked on full-stack development projects, specializing in ReactJS and Spring MVC.",
     icon: React.createElement(CgWorkAlt),
     date: "2019 - 2021",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
-    description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+    title: "Full Stack Engineering Analyst",
+    location: "Hyderabad, India",
+    description: "Developed scalable solutions using ReactJS, Spring Boot, and AWS. Led a team of junior engineers and improved system efficiency.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2021 - 2022",
+  },
+  {
+    title: "Master's in Computer Science",
+    location: "Denton, TX",
+    description: "Advanced my skills in software development with a focus on full-stack engineering and cloud technologies.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2022-2024",
   },
 ] as const;
 
 export const projectsData = [
+  // {
+  //   title: "Full-Stack Image Uploader Application",
+  //   description: "Developed an integrated application using Spring Boot for the backend, ReactJS for the frontend, and Amazon S3 for image storage.",
+  //   tags: ["Spring Boot", "ReactJS", "Amazon S3", "Docker"],
+  //   imageUrl: imgUploaderImg,
+  // },
+  // {
+  //   title: "Task Management System",
+  //   description: "Implemented a microservices architecture with separate services for users, tasks, and submissions using ReactJS and Spring Boot.",
+  //   tags: ["ReactJS", "Spring Boot", "Microservices", "AWS", "MySQL"],
+  //   imageUrl: taskManagerImg,
+  // },
   {
-    title: "CorpComment",
-    description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+    title: "IPL Data Marvel",
+    description: "Developed a real-time data application using Spring Boot and AWS services for scalable data storage and processing.",
+    tags: ["ReactJS", "Spring Boot", "Spring Batch", "AWS"],
+    imageUrl: iplDataMarvelImg,
   },
   {
-    title: "rmtDev",
-    description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+    title: "MovieQuest: Modern Movie Discovery App",
+    description: "Created a movie discovery app with personalized recommendations, optimized backend APIs, and social media sharing features.",
+    tags: ["React", "Redux", "Material UI"],
+    imageUrl: movieQuestImg,
   },
   {
-    title: "Word Analytics",
-    description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+    title: "Fast-PizzaStore Project",
+    description: "Utilized PWA techniques for offline support and integrated Google Maps API for real-time order tracking.",
+    tags: ["ReactJS", "PWA", "Google Maps API"],
+    imageUrl: fastPizzaStoreImg,
   },
 ] as const;
-
 export const skillsData = [
-  "HTML",
-  "CSS",
+  "Java",
   "JavaScript",
-  "TypeScript",
-  "React",
-  "Next.js",
-  "Node.js",
+  "SQL",
+  "ReactJS",
+  "Spring Boot",
+  "Spring Data JPA",
+  "Hibernate",
+  "Kubernetes",
+  "AWS",
+  "Docker",
+  "OAuth",
+  "JWT",
+  "Jenkins",
+  "JIRA",
   "Git",
-  "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
+  "Swagger",
   "PostgreSQL",
-  "Python",
-  "Django",
-  "Framer Motion",
+  "MariaDB",
+  "Oracle",
+  "CI/CD",
+  "Agile",
+  "XP Engineering Practices",
+  "Junit",
+  "Cucumber",
+  "Gatling",
+  "Jmeter",
 ] as const;
