@@ -1,9 +1,6 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-// import imgUploaderImg from "@/public/imgUploader.png";
-// import taskManagerImg from "@/public/taskManager.png";
 import iplDataMarvelImg from "@/public/iplDataMarvel.png";
 import movieQuestImg from "@/public/movieQuest.png";
 import fastPizzaStoreImg from "@/public/fastPizzaStore.png";
@@ -37,92 +34,122 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated with Bachelor's in Electronics and Communication Engineering",
-    location: "Hyderabad, India",
-    description: "Completed my bachelor's degree, which laid the foundation for my interest in software development.",
+    title: "Software Engineer",
+    location: "Optum, TX, USA",
+    description:
+      "Designing healthcare analytics platforms using Java 17+, Spring Boot, Elasticsearch, and React Router.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2023 - Present",
+  },
+  {
+    title: "Master of Science in Computer Science",
+    location: "University of North Texas, Denton, TX, USA",
+    description:
+      "Focused on full-stack engineering and cloud technologies, enhancing skills in software development.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2022 - 2024",
+  },
+  {
+    title: "Java Full Stack Developer",
+    location: "Capgemini, India",
+    description:
+      "Led modernization efforts by decomposing monolithic applications into microservices using Spring Boot and ReactJS.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2019 - 2022",
+  },
+  {
+    title: "Bachelor of Technology in Electronics and Communication",
+    location: "Osmania University, Hyderabad, India",
+    description:
+      "Graduated with a strong foundation in electronics and communication engineering.",
     icon: React.createElement(LuGraduationCap),
     date: "2021",
-  },
-  {
-    title: "Associate Software Engineer",
-    location: "Bangalore, India",
-    description: "Worked on full-stack development projects, specializing in ReactJS and Spring MVC.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
-  },
-  {
-    title: "Full Stack Engineering Analyst",
-    location: "Hyderabad, India",
-    description: "Developed scalable solutions using ReactJS, Spring Boot, and AWS. Led a team of junior engineers and improved system efficiency.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2021 - 2022",
-  },
-  {
-    title: "Master's in Computer Science",
-    location: "Denton, TX",
-    description: "Advanced my skills in software development with a focus on full-stack engineering and cloud technologies.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2022-2024",
   },
 ] as const;
 
 export const projectsData = [
-  // {
-  //   title: "Full-Stack Image Uploader Application",
-  //   description: "Developed an integrated application using Spring Boot for the backend, ReactJS for the frontend, and Amazon S3 for image storage.",
-  //   tags: ["Spring Boot", "ReactJS", "Amazon S3", "Docker"],
-  //   imageUrl: imgUploaderImg,
-  // },
-  // {
-  //   title: "Task Management System",
-  //   description: "Implemented a microservices architecture with separate services for users, tasks, and submissions using ReactJS and Spring Boot.",
-  //   tags: ["ReactJS", "Spring Boot", "Microservices", "AWS", "MySQL"],
-  //   imageUrl: taskManagerImg,
-  // },
   {
     title: "IPL Data Marvel",
-    description: "Developed a real-time data application using Spring Boot and AWS services for scalable data storage and processing.",
-    tags: ["ReactJS", "Spring Boot", "Spring Batch", "AWS"],
+    description:
+      "Real-time data application using Spring Boot and AWS for scalable data storage and processing.",
+    tags: ["ReactJS", "Spring Boot", "AWS", "Spring Batch"],
     imageUrl: iplDataMarvelImg,
   },
   {
     title: "MovieQuest: Modern Movie Discovery App",
-    description: "Created a movie discovery app with personalized recommendations, optimized backend APIs, and social media sharing features.",
+    description:
+      "Movie discovery app with personalized recommendations, optimized backend APIs, and social media sharing.",
     tags: ["React", "Redux", "Material UI"],
     imageUrl: movieQuestImg,
   },
   {
     title: "Fast-PizzaStore Project",
-    description: "Utilized PWA techniques for offline support and integrated Google Maps API for real-time order tracking.",
+    description:
+      "PWA with offline support and real-time order tracking using Google Maps API.",
     tags: ["ReactJS", "PWA", "Google Maps API"],
     imageUrl: fastPizzaStoreImg,
   },
 ] as const;
+
 export const skillsData = [
   "Java",
+  "Python",
+  "C++",
+  "HTML5",
+  "CSS3",
+  "Bootstrap",
+  "UI Material",
   "JavaScript",
-  "SQL",
-  "ReactJS",
+  "Typescript",
+  "ES6",
+  "React JS",
+  "Redux",
+  "React Hooks",
   "Spring Boot",
-  "Spring Data JPA",
+  "Spring MVC",
+  "Web Services",
+  "REST API",
+  "Microservices",
   "Hibernate",
-  "Kubernetes",
-  "AWS",
-  "Docker",
-  "OAuth",
-  "JWT",
-  "Jenkins",
-  "JIRA",
-  "Git",
+  "J2EE Technologies",
+  "Servlets",
+  "JSP",
+  "JDBC",
+  "JMS",
+  "Multithreading",
+  "IDEs",
+  "RESTful WebServices",
+  "Core Java",
+  "XML",
+  "Java Database Connectivity (JDBC)",
+  "Tomcat",
+  "Struts",
+  "SOAP",
+  "Maven",
+  "AngularJS",
+  "Jakarta EE",
+  "JUnit",
+  "Spring Framework",
   "Swagger",
   "PostgreSQL",
-  "MariaDB",
+  "MySQL",
   "Oracle",
+  "Docker",
+  "Kubernetes",
+  "AWS",
   "CI/CD",
   "Agile",
-  "XP Engineering Practices",
-  "Junit",
+  "Jira",
+  "Git",
+  "Scrum",
+  "GitHub",
+  "Terraform",
+  "SonarQube",
+  "POSTman",
+  "JMeter",
   "Cucumber",
   "Gatling",
-  "Jmeter",
+  "Windows",
+  "Linux",
+  "Mac OS",
 ] as const;

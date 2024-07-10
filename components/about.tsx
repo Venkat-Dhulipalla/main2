@@ -31,10 +31,12 @@ export default function About() {
         <span className="underline">love</span> the satisfaction of seeing my
         code positively impact users. My core stack includes{" "}
         <span className="font-medium">React, Java, Spring Boot, and AWS</span>.
-        I am also proficient with Kubernetes and Docker. I continuously strive
-        to learn new technologies and enhance my skills. I am currently seeking
-        a <span className="font-medium">full-time position</span> as a Full
-        Stack Engineer.
+        I am also proficient with Kubernetes and Docker. I have hands-on
+        experience from roles at Optum, where I am currently working,
+        and Capgemini, where I collaborated on complex projects. I continuously
+        strive to learn new technologies and enhance my skills. I am currently
+        seeking a <span className="font-medium">full-time position</span> as a
+        Full Stack Engineer.
       </p>
 
       <p>
@@ -48,9 +50,6 @@ export default function About() {
         . In my free time, I enjoy hiking and experimenting with new cooking
         recipes.
       </p>
-
-
-
     </motion.section>
   );
 }
