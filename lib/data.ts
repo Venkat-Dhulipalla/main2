@@ -34,18 +34,18 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Software Engineer",
-    location: "Optum, TX, USA",
+    title: "Java Full Stack Developer",
+    location: "J.P. Morgan & Chase, TX, USA",
     description:
-      "Designing healthcare analytics platforms using Java 17+, Spring Boot, Elasticsearch, and React Router.",
+      "Enhanced mobile payment systems using Spring Boot and ReactJS, achieving a 20% reduction in transaction times and improving user experience on mobile platforms.",
     icon: React.createElement(CgWorkAlt),
-    date: "2023 - Present",
+    date: "Aug 2023 - Present",
   },
   {
     title: "Master of Science in Computer Science",
     location: "University of North Texas, Denton, TX, USA",
     description:
-      "Focused on full-stack engineering and cloud technologies, enhancing skills in software development.",
+      "Specialized in full-stack engineering and cloud technologies with a focus on software development and scalable system design.",
     icon: React.createElement(LuGraduationCap),
     date: "2022 - 2024",
   },
@@ -53,9 +53,9 @@ export const experiencesData = [
     title: "Java Full Stack Developer",
     location: "Capgemini, India",
     description:
-      "Led modernization efforts by decomposing monolithic applications into microservices using Spring Boot and ReactJS.",
+      "Developed microservices-based inventory management systems using Spring Boot and Angular, enhancing scalability and system efficiency.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2022",
+    date: "Sept 2019 - Aug 2022",
   },
   {
     title: "Bachelor of Technology in Electronics and Communication",
@@ -63,7 +63,7 @@ export const experiencesData = [
     description:
       "Graduated with a strong foundation in electronics and communication engineering.",
     icon: React.createElement(LuGraduationCap),
-    date: "2021",
+    date: "2015 - 2019",
   },
 ] as const;
 

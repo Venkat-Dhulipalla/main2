@@ -23,32 +23,40 @@ export default function About() {
         <span className="font-medium">
           Electronics and Communication Engineering
         </span>
-        , I decided to follow my passion for software development. I pursued a
-        Master's in Computer Science and gained significant experience in{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is
-        creating efficient and scalable solutions. I{" "}
-        <span className="underline">love</span> the satisfaction of seeing my
-        code positively impact users. My core stack includes{" "}
-        <span className="font-medium">React, Java, Spring Boot, and AWS</span>.
-        I am also proficient with Kubernetes and Docker. I have hands-on
-        experience from roles at Optum, where I am currently working,
-        and Capgemini, where I collaborated on complex projects. I continuously
-        strive to learn new technologies and enhance my skills. I am currently
-        seeking a <span className="font-medium">full-time position</span> as a
-        Full Stack Engineer.
+        , I discovered my passion for software development. To deepen my
+        knowledge, I pursued a Master's in Computer Science at the{" "}
+        <span className="font-medium">University of North Texas, Denton</span>.
+        Over the years, I have gained significant experience in{" "}
+        <span className="font-medium">Java Full Stack Development</span>, with
+        expertise in building scalable applications using{" "}
+        <span className="font-medium">Spring Boot, React.js, and AWS</span>. My
+        professional journey includes impactful roles at{" "}
+        <span className="font-medium">J.P. Morgan & Chase</span> and{" "}
+        <span className="font-medium">Capgemini</span>, where I developed
+        cutting-edge solutions for fintech and e-commerce platforms. I excel in{" "}
+        <span className="font-medium">
+          microservices architecture, database optimization, and CI/CD pipelines
+        </span>
+        , always striving to deliver efficient and scalable systems.
       </p>
 
       <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        chess, watching cricket, and exploring new technologies. I also have a
-        passion for <span className="font-medium">teaching and mentoring</span>{" "}
-        others in the tech community. Currently, I am learning about{" "}
+        I am passionate about solving complex problems, mentoring junior
+        developers, and staying ahead in the ever-evolving tech landscape. My
+        current interests include{" "}
+        <span className="font-medium">cloud-native architectures</span> and{" "}
+        <span className="font-medium">advanced distributed systems</span>. When
+        I'm not coding, I enjoy playing chess, watching cricket, and exploring
+        new cooking recipes. I also love engaging with the tech community by
+        sharing knowledge and guiding aspiring developers. As a lifelong
+        learner, I am currently diving deeper into{" "}
         <span className="font-medium">
-          cloud-native architectures and advanced data structures
+          Kubernetes, Docker, and data-driven system design
         </span>
-        . In my free time, I enjoy hiking and experimenting with new cooking
-        recipes.
+        . I am actively seeking a{" "}
+        <span className="font-medium">full-time role</span> as a{" "}
+        <span className="font-medium">Full Stack Engineer</span> to leverage my
+        skills and contribute to impactful projects.
       </p>
     </motion.section>
   );
